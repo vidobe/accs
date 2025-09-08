@@ -5,7 +5,7 @@
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "headers": {
         "cs": {
-          "ac-channel-id": "352a1c99-2b16-414e-af32-c359da304524",
+          "ac-channel-id": "d49a20a5-b728-453c-acaa-8cb233adbd15",
           "ac-environment-id": "HpNAiX54jo9XpBpirzYeL1",
           "ac-price-book-id": "global_visibility",
           "ac-scope-locale": "en-US"
