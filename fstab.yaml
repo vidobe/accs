@@ -5,3 +5,4 @@ mountpoints:
 
 folders:
   /products/: /products/default
+  /bolt/products/: /bolt/products/default
