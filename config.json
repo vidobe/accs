@@ -2,20 +2,12 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "headers": {
-        "all": {
-          "Content-Type": "application/json",
-          "X-Api-Key": "<YOUR_API_KEY>",
-          "Magento-Environment-Id": "HpNAiX54jo9XpBpirzYeL1",
-          "Magento-Website-Code": "base",
-          "Magento-Store-Code": "main_website_store",
-          "Magento-Store-View-Code": "default",
-          "Magento-Customer-Group": "NOT_LOGGED_IN"
-        },
         "cs": {
           "AC-View-ID": "86165fb8-5a71-43be-bb18-7841666c06bc",
           "AC-Price-Book-ID": "global_visibility",
-          "AC-Scope-Locale": "en-US"
+          "AC-Source-Locale": "en_US"
         }
       },
       "analytics": {
@@ -34,7 +26,9 @@
         "website-name": "Main Website"
       },
       "plugins": {
-        "picker": { "rootCategory": "2" }
+        "picker": {
+          "rootCategory": "2"
+        }
       }
     }
   }
