@@ -4,29 +4,32 @@
       "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "headers": {
+        "all": {
+          "Store": "default"
+        },
         "cs": {
-          "ac-channel-id": "352a1c99-2b16-414e-af32-c359da304524",
-          "ac-environment-id": "HpNAiX54jo9XpBpirzYeL1",
-          "ac-price-book-id": "global_visibility",
-          "ac-scope-locale": "en-US"
+          "AC-View-ID": "86165fb8-5a71-43be-bb18-7841666c06bc",
+          "AC-Source-Locale": "en-US"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
+        "environment-id": "HpNAiX54jo9XpBpirzYeL1",
+        "store-code": "main_website_store",
         "store-id": "main_website_store",
         "store-name": "Default Store View",
         "store-url": "https://main--accs--vidobe.aem.live",
+        "store-view-code": "default",
         "store-view-id": "default",
         "store-view-name": "Default Store View",
-        "website-id": "base",
+        "website-code": "base",
+        "website-id": "basae",
         "website-name": "Main Website"
-      }
-    },
-    "/bolt/": {
-      "headers": {
-        "cs": {
-          "ac-channel-id": "d49a20a5-b728-453c-acaa-8cb233adbd15"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "2"
         }
       }
     }
