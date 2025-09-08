@@ -24,11 +24,6 @@
         "website-code": "base",
         "website-id": "base",
         "website-name": "Main Website"
-      },
-      "plugins": {
-        "picker": {
-          "rootCategory": "2"
-        }
       }
     }
   }
