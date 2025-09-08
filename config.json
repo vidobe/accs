@@ -1,23 +1,26 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/GR9ME1ZbVW5pKKUTNwdvfE/graphql",
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
-     "headers": {
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
         "cs": {
-          "ac-channel-id": "352a1c99-2b16-414e-af32-c359da304524",
-          "ac-price-book-id": "west_coast_inc",
-          "ac-scope-locale": "en-US"
+          "AC-View-ID": "86165fb8-5a71-43be-bb18-7841666c06bc",
+          "AC-Price-Book-ID": "global_visibility",
+          "AC-Source-Locale": "en_US"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "GR9ME1ZbVW5pKKUTNwdvfE",
+        "environment-id": "HpNAiX54jo9XpBpirzYeL1",
         "store-code": "main_website_store",
         "store-id": "main_website_store",
         "store-name": "Default Store View",
-        "store-url": "https://coresaas-subgraph-external:8000/GR9ME1ZbVW5pKKUTNwdvfE/",
+        "store-url": "https://main--accs--vidobe.aem.live",
         "store-view-code": "default",
         "store-view-id": "default",
         "store-view-name": "Default Store View",
