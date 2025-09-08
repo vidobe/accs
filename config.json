@@ -4,10 +4,12 @@
       "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HpNAiX54jo9XpBpirzYeL1/graphql",
       "headers": {
+        "all": {
+          "Store": "default"
+        },
         "cs": {
           "AC-View-ID": "86165fb8-5a71-43be-bb18-7841666c06bc",
-          "AC-Price-Book-ID": "global_visibility",
-          "AC-Source-Locale": "en_US"
+          "AC-Source-Locale": "en-US"
         }
       },
       "analytics": {
@@ -22,7 +24,7 @@
         "store-view-id": "default",
         "store-view-name": "Default Store View",
         "website-code": "base",
-        "website-id": "base",
+        "website-id": "basae",
         "website-name": "Main Website"
       },
       "plugins": {
