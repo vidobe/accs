@@ -480,13 +480,3 @@ body.columns main > .section:empty {
 main[hidden] {
   display: none !important;
 }
-
-:root, .dropin-design {
-  /* ...existing tokens... */
-  --product-image-height: 400px;
-}
-
-.dropin-product-item-card__image img {
-  height: var(--product-image-height);
-  object-fit: cover;
-}
