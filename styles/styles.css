@@ -481,7 +481,12 @@ main[hidden] {
   display: none !important;
 }
 
-/* Set product image height to 400px */
+:root, .dropin-design {
+  /* ...existing tokens... */
+  --product-image-height: 400px;
+}
+
 .dropin-product-item-card__image img {
-  height: 400px;
+  height: var(--product-image-height);
+  object-fit: cover;
 }
