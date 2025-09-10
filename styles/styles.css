@@ -480,3 +480,8 @@ body.columns main > .section:empty {
 main[hidden] {
   display: none !important;
 }
+
+/* Set product image height to 400px */
+.dropin-product-item-card__image img {
+  height: 400px;
+}
